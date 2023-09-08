@@ -1,0 +1,129 @@
+* {
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+}
+
+a {
+    text-decoration: none;
+    color: #FFF;
+}
+
+body {
+    display: block;
+    background: var(--020-a-18, #020A18);
+}
+
+.header {
+    margin-left: calc(50% - 573px);
+    margin-right: calc(50% - 573px);
+    color: var(--ffffff, #FFF);
+    font-family: Open Sans;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+}
+
+.header_new_menu {
+    color: var(--ffffff, #FFF);
+    font-family: Open Sans;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    margin-right: calc(50% - 540px);
+    display: flex;
+
+    gap: 20px;
+    margin-left: calc(50% - 540px);
+
+}
+
+.nav_menu {
+    padding: 40px;
+    list-style-type: none;
+}
+
+.main {
+    margin: 150px 367px 355px 388px;
+    color: var(--ffffff, #FFF);
+}
+
+.text {
+    padding: 10px 0;
+}
+
+.text {
+    display: flex;
+    justify-content: left;
+    gap: 128px;
+    color: #FFF;
+    margin-top: 150px;
+    margin-bottom: 197px;
+}
+
+h3 {
+    display: flex;
+    color: #3A68B8;
+    font-family: Open Sans SemiBold, serif;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 160%;
+    text-transform: uppercase;
+}
+
+h1 {
+    display: flex;
+    color: var(--ffffff, #FFF);
+    font-family: Open Sans;
+    font-size: 55px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: 130%;
+}
+
+h2 {
+    margin: 40px 0 40px 0;
+    font-family: Open Sans SemiBold, serif;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 160%;
+    opacity: 0.7;
+}
+
+.comtant {
+    margin-top: 150px;
+    margin-bottom: 200px;
+    margin-left: 300px;
+    margin-right: 100px;
+    border-radius: 10px;
+    opacity: 0.1;
+    background: linear-gradient(180deg, rgba(255, 255, 255, 0.20) -41.9%, rgba(255, 255, 255, 0.40) 260.24%);
+    backdrop-filter: blur(100px);
+    z-index: -1
+}
+
+.button1 {
+    display: flex;
+    gap: 10px;
+}
+
+.batone {
+    padding: 15px 30px;
+    border-radius: 5px;
+    background: #3A68B8;
+    color: #FFF;
+    font-family: Open Sans SemiBold, serif;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+}
+
+.banner_labes {
+    display: flex;
+    gap: 100px;
+}
